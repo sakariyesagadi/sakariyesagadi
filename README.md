@@ -56,7 +56,7 @@ Smaller apps I built for things in my own life.
 
 ## Skills
 
-| | |
+| Area | Tools |
 |---|---|
 | **Languages** | Python · TypeScript · JavaScript · Bash |
 | **AWS** | Lambda · S3 · EventBridge · SNS · CDK · Step Functions · Athena · QuickSight · Bedrock · DynamoDB · API Gateway · CloudWatch · IAM · STS |
