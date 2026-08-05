@@ -48,11 +48,16 @@ The repos on this profile — smaller apps I built for things in my own life.
 
 ## Skills
 
-**Languages:** Python, TypeScript, JavaScript, Bash
+**Languages:** Python, TypeScript, JavaScript, Bash  
+
 **AWS:** Lambda, S3, EventBridge, SNS, CDK, Step Functions, Athena, QuickSight, Bedrock, DynamoDB, API Gateway, CloudWatch, IAM, STS
+
 **Infrastructure:** CDK (TypeScript), CloudFormation, serverless architecture
+
 **Data:** ETL pipelines, QuickSight dashboards, Athena/SQL, S3 data lakes
+
 **Operations:** on-call (8 services, 10 regions), incident response, alarm investigation, pipeline troubleshooting
+
 **Other:** Bedrock/Claude integration, SigV4 / SigV4A authentication, Slack bots, cross-network debugging, API integration
 
 ## Contact
