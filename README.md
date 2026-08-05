@@ -37,9 +37,17 @@ Investigated a recurring false-positive alarm pattern (24 self-resolving tickets
 **Cross-Functional Programme Leadership**
 Led an org-wide rebranding programme spanning security, engineering, training, and customer-facing teams — coordinating 8+ contributors, handling external stakeholder communications, and driving scope and execution decisions.
 
+## Open-source tools
+
+The same operational instinct, built out as standalone projects you can read and run — each solving a problem I've hit in on-call and pipeline work.
+
+- **[oncall-digest](https://github.com/sakariyesagadi/oncall-digest)** — a Discord bot that watches an alerts channel and turns overnight noise into a structured shift-handover digest (still firing / recovered / suggested actions) using the Claude API. Python, discord.py, SQLite, structured outputs.
+- **[deploy-pulse](https://github.com/sakariyesagadi/deploy-pulse)** — tracks GitHub Actions health across repos, scores each pipeline RED/YELLOW/GREEN (success rate, failure streaks, flaky-test and duration trends), and ships a static dashboard plus a weekly digest. Python, GitHub API, Chart.js.
+- **[drift-guard](https://github.com/sakariyesagadi/drift-guard)** — read-only AWS infrastructure drift detector: compares live IAM, security groups, S3, Lambda, and DynamoDB against a declared YAML baseline and opens (and auto-closes) GitHub Issues for any divergence. Python, boto3, deployable as a scheduled Lambda.
+
 ## Side projects
 
-The repos on this profile — smaller apps I built for things in my own life.
+Smaller apps I built for things in my own life.
 
 - **[football-organiser](https://github.com/sakariyesagadi/football-organiser)** — organises weekly 5-a-side: availability, balanced teams, subs tracking. Next.js, Prisma, Postgres.
 - **[matchday-infra](https://github.com/sakariyesagadi/matchday-infra)** — the football backend rebuilt as serverless AWS infrastructure. CDK, single-table DynamoDB, EventBridge, SES, Cognito.
@@ -48,17 +56,14 @@ The repos on this profile — smaller apps I built for things in my own life.
 
 ## Skills
 
-**Languages:** Python, TypeScript, JavaScript, Bash  
-
-**AWS:** Lambda, S3, EventBridge, SNS, CDK, Step Functions, Athena, QuickSight, Bedrock, DynamoDB, API Gateway, CloudWatch, IAM, STS
-
-**Infrastructure:** CDK (TypeScript), CloudFormation, serverless architecture
-
-**Data:** ETL pipelines, QuickSight dashboards, Athena/SQL, S3 data lakes
-
-**Operations:** on-call (8 services, 10 regions), incident response, alarm investigation, pipeline troubleshooting
-
-**Other:** Bedrock/Claude integration, SigV4 / SigV4A authentication, Slack bots, cross-network debugging, API integration
+| | |
+|---|---|
+| **Languages** | Python · TypeScript · JavaScript · Bash |
+| **AWS** | Lambda · S3 · EventBridge · SNS · CDK · Step Functions · Athena · QuickSight · Bedrock · DynamoDB · API Gateway · CloudWatch · IAM · STS |
+| **Infrastructure** | CDK (TypeScript) · CloudFormation · serverless architecture |
+| **Data** | ETL pipelines · QuickSight dashboards · Athena/SQL · S3 data lakes |
+| **Operations** | On-call (8 services, 10 regions) · incident response · alarm investigation · pipeline troubleshooting |
+| **Other** | Bedrock/Claude integration · SigV4 / SigV4A auth · Slack bots · cross-network debugging · API integration |
 
 ## Contact
 
